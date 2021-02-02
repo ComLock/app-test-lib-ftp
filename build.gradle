@@ -29,7 +29,7 @@ dependencies {
 
     //include project(':lib-ftp') // NOTE: jar file must already be built.
 
-    include files('../lib-ftp/build/libs/lib-ftp-1.0.1.jar')
+    include files('../../enonic/lib-ftp/build/libs/lib-ftp-1.0.1-SNAPSHOT.jar')
     // Including jar files does not add the dependencies of that jar file
     // So you have to add them manually
     include "com.enonic.xp:lib-io:${xpVersion}"
